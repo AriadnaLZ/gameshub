@@ -1,0 +1,58 @@
+.ahorcadoContainer {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  height: 450px;
+  flex-wrap: wrap;
+  margin: 2rem;
+ 
+}
+
+.ahorcado {
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.visualizacion-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: var(--rtc-space-s);
+}
+
+.visualizacion-palabra {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.letras-usadas {
+  margin-top: 20px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.resultado {
+  margin-top: 20px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.reiniciar-boton {
+  width: 250px;
+  height: 150px;
+  margin-top: 20px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+svg {
+  overflow: visible;
+}
+
+line {
+  fill: none;
+  stroke: black;
+  stroke-width: 5;
+}
